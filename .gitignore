@@ -1,0 +1,27 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local dependencies and generated artifacts
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+.next/
+dist/
+build/
+coverage/
+.cache/
+*.log
+
+# Private project state and machine-specific agent files
+.local/
+CLAUDE.local.md
+AGENTS.local.md
+
+# Operating system artifacts
+.DS_Store
+Thumbs.db
